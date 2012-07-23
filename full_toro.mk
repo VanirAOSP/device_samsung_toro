@@ -42,5 +42,5 @@ $(call inherit-product, device/samsung/toro/device_vzw.mk)
 PRODUCT_NAME := full_toro
 PRODUCT_DEVICE := toro
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := Full AOSP on Toro-VZW
+PRODUCT_MODEL := VanirAOSP on Toro
 PRODUCT_RESTRICT_VENDOR_FILES := true
