@@ -26,17 +26,18 @@
     <bool name="enabledMMS">true</bool>
 
     <!-- Maximum message size in bytes for a MMS message -->
-    <int name="maxMessageSize">307200</int>
+    <int name="maxMessageSize">1258291</int>
 
     <!-- Maximum height for an attached image -->
     <int name="maxImageHeight">1944</int>
     
-    
-    <string name="emailGatewayNumber">6245</string>
-
     <!-- Maximum width for an attached image -->
-    <int name="maxImageWidth">2592</int>
+    <int name="maxImageWidth">2592</int>  
     
+    <!-- Email Gateway Number -->	  	
+    <!-- TODO: check if this is correct for Passion -->
+    <string name="emailGatewayNumber">6245</string>
+ 
     <!-- Maximum number of SMS message to save per thread before auto-delete kicks in.
          This is the default value. -->
     <int name="defaultSMSMessagesPerThread">500</int>
@@ -64,7 +65,7 @@
     <!-- If true, The text message over 160 characters will be sent in multi part.
          If false, The text message over 160 characters will be sent
          via multi media message. -->
-    <bool name="enableMultipartSMS">false</bool>
+    <bool name="enableMultipartSMS">true</bool>
 
     <!-- If true, The mms support slide duration.
          If false, The mms does not support slide duration and we have to
