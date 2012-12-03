@@ -57,9 +57,6 @@
         <item>/dev/bus/usb/001</item>
     </string-array>
 
-    <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
-    <bool name="config_cellBroadcastAppLinks">true</bool>
-
     <!-- The duration (in milliseconds) of a short animation. -->
     <integer name="config_shortAnimTime">100</integer>
 
