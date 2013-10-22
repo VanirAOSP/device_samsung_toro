@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_TELEPHONY_VARIANT := legacy
+#TARGET_TELEPHONY_VARIANT := legacy
 
 # Default values, possibly overridden by BoardConfigVendor.mk
 TARGET_BOARD_INFO_FILE := device/samsung/toro/board-info.txt
