@@ -29,4 +29,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.cdma.otaspnumschema=SELC,1,80,99
 
 $(call inherit-product, device/samsung/tuna/device.mk)
-$(call inherit-product-if-exists, vendor/samsung/toro/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/toro/toro-vendor.mk)
